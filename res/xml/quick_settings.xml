@@ -21,12 +21,13 @@
     <PreferenceCategory
         android:title="@string/qs_header">
 
-    <!-- QS DataUsage toggle -->
-    <com.ssos.support.preferences.SystemSettingSwitchPreference
+    <!-- QS Header data usage -->
+    <com.ssos.support.preferences.SystemSettingListPreference
         android:key="qs_datausage"
         android:title="@string/qs_datausage_title"
-        android:summary="@string/qs_datausage_subtitle"
-        android:defaultValue="false" />
+        android:entries="@array/qs_datausage_entries"
+        android:entryValues="@array/qs_datausage_values"
+        android:defaultValue="0" />
 
     </PreferenceCategory>
 
