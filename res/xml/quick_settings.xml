@@ -19,6 +19,19 @@
     android:title="@string/quick_settings_title" >
 
     <PreferenceCategory
+        android:title="@string/qs_header">
+
+    <!-- QS DataUsage toggle -->
+    <com.ssos.support.preferences.SystemSettingSwitchPreference
+        android:key="qs_datausage"
+        android:title="@string/qs_datausage_title"
+        android:summary="@string/qs_datausage_subtitle"
+        android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
         android:title="@string/qs_media">
 
     <!-- QS media player -->

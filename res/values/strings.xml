@@ -565,5 +565,10 @@ Aggressive Standby is a feature that stops apps from running in the background a
     <string name="qs_media_player_title">Media player</string>
     <string name="qs_media_player_summary_on">Show media player in QS\nRequires a SystemUI restart</string>
     <string name="qs_media_player_summary_off">Show media player as a notification\nRequires a SystemUI restart</string>
+
+    <!-- QS DataUsage Toggle -->
+    <string name="qs_header">QS header items</string>
+    <string name="qs_datausage_title">Show data usage in qs header</string>
+    <string name="qs_datausage_subtitle">Shows data usage in quick settings header of sim used for data</string>
 </resources>
 
