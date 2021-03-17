@@ -56,7 +56,7 @@ public class LockscreenGeneral extends SettingsPreferenceFragment implements
     private SystemSettingSwitchPreference mLockFPIcon;
     private SwitchPreference mFingerprintVib;
     private SwitchPreference mFingerprintErrorVib;
-    preference mAODPref
+    Preference mAODPref;
 
     private boolean mHasFod;
     private ContentResolver mResolver;
